@@ -1,0 +1,6 @@
+matplotlib
+einops
+scikit-learn
+omegaconf
+opt_einsum
+mamba_ssm
