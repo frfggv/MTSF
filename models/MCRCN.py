@@ -483,14 +483,14 @@ class Model(nn.Module):
                         Mamba(
                             d_model=self.seq_len,  # Model dimension d_model
                             # d_model=7,
-                            d_state=self.seq_len,  # SSM state expansion factor
+                            d_state=configs.d_state,  # SSM state expansion factor
                             d_conv=4,  # Local convolution width
                             expand=1,  # Block expansion factor)
                         ),
                         Mamba(
                             d_model=self.seq_len,  # Model dimension d_model
                             # d_model=7,
-                            d_state=self.seq_len,  # SSM state expansion factor
+                            d_state=configs.d_state,  # SSM state expansion factor
                             d_conv=4,  # Local convolution width
                             expand=1,  # Block expansion factor)
                         ),
@@ -508,14 +508,14 @@ class Model(nn.Module):
                         Mamba(
                             d_model=self.seq_len,  # Model dimension d_model
                             # d_model=7,
-                            d_state=self.seq_len,  # SSM state expansion factor
+                            d_state=configs.d_state,  # SSM state expansion factor
                             d_conv=4,  # Local convolution width
                             expand=1,  # Block expansion factor)
                         ),
                         Mamba(
                             d_model=self.seq_len,  # Model dimension d_model
                             # d_model=7,
-                            d_state=self.seq_len,  # SSM state expansion factor
+                            d_state=configs.d_state,  # SSM state expansion factor
                             d_conv=4,  # Local convolution width
                             expand=1,  # Block expansion factor)
                         ),
@@ -533,14 +533,14 @@ class Model(nn.Module):
                         Mamba(
                             d_model=self.seq_len,  # Model dimension d_model
                             # d_model=7,
-                            d_state=self.seq_len,  # SSM state expansion factor
+                            d_state=configs.d_state,  # SSM state expansion factor
                             d_conv=4,  # Local convolution width
                             expand=1,  # Block expansion factor)
                         ),
                         Mamba(
                             d_model=self.seq_len,  # Model dimension d_model
                             # d_model=7,
-                            d_state=self.seq_len,  # SSM state expansion factor
+                            d_state=configs.d_state,  # SSM state expansion factor
                             d_conv=4,  # Local convolution width
                             expand=1,  # Block expansion factor)
                         ),
@@ -558,14 +558,14 @@ class Model(nn.Module):
                         Mamba(
                             d_model=self.seq_len,  # Model dimension d_model
                             # d_model=7,
-                            d_state=self.seq_len,  # SSM state expansion factor
+                            d_state=configs.d_state,  # SSM state expansion factor
                             d_conv=4,  # Local convolution width
                             expand=1,  # Block expansion factor)
                         ),
                         Mamba(
                             d_model=self.seq_len,  # Model dimension d_model
                             # d_model=7,
-                            d_state=self.seq_len,  # SSM state expansion factor
+                            d_state=configs.d_state,  # SSM state expansion factor
                             d_conv=4,  # Local convolution width
                             expand=1,  # Block expansion factor)
                         ),
@@ -583,14 +583,14 @@ class Model(nn.Module):
                         Mamba(
                             d_model=self.seq_len,  # Model dimension d_model
                             # d_model=7,
-                            d_state=self.seq_len,  # SSM state expansion factor
+                            d_state=configs.d_state,  # SSM state expansion factor
                             d_conv=4,  # Local convolution width
                             expand=1,  # Block expansion factor)
                         ),
                         Mamba(
                             d_model=self.seq_len,  # Model dimension d_model
                             # d_model=7,
-                            d_state=self.seq_len,  # SSM state expansion factor
+                            d_state=configs.d_state,  # SSM state expansion factor
                             d_conv=4,  # Local convolution width
                             expand=1,  # Block expansion factor)
                         ),
@@ -608,14 +608,14 @@ class Model(nn.Module):
                         Mamba(
                             d_model=self.seq_len,  # Model dimension d_model
                             # d_model=7,
-                            d_state=self.seq_len,  # SSM state expansion factor
+                            d_state=configs.d_state,  # SSM state expansion factor
                             d_conv=4,  # Local convolution width
                             expand=1,  # Block expansion factor)
                         ),
                         Mamba(
                             d_model=self.seq_len,  # Model dimension d_model
                             # d_model=7,
-                            d_state=self.seq_len,  # SSM state expansion factor
+                            d_state=configs.d_state,  # SSM state expansion factor
                             d_conv=4,  # Local convolution width
                             expand=1,  # Block expansion factor)
                         ),
