@@ -132,7 +132,7 @@ parser.add_argument('--test_flop', action='store_true', default=False, help='See
 #MCRCN
 parser.add_argument('--top_k', type=int, default=3, help='k seasonals')
 parser.add_argument('--dropout', type=float, default=0, help='dropout')
-parser.add_argument('--d_state', type=int, default=2, help='d_state')
+parser.add_argument('--d_state', type=int, default=96, help='d_state')
 parser.add_argument('--mam_model', type=int, default=24, help='mam_model')
 parser.add_argument('--mam_layer', type=int, default=2, help='mam_layer')
 parser.add_argument('--num_layer', type=int, default=2, help='num_layer')
