@@ -1,6 +1,6 @@
 # MTSF
 
-The main code can be found at master
+The main code can be found in master.
 
 The task of multivariate time series forecasting (MTSF) has become the focus of numerous studies.However, there are still significant research gaps in capturing the correlations between variables in different time patterns (trends and seasons) of time series. To address this oversight, we propose a Mamba clustering and representation convolutional network (MCRCN) on the moving average decomposition architecture for MTSF.
 
