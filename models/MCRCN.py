@@ -71,9 +71,9 @@ class Embedding(nn.Module):
 
 
 class ConvFFN(nn.Module):
-    def __init__(self, D, r, kernel, one=True):  # one is True: ConvFFN1, one is False: ConvFFN2
+    def __init__(self, D, r, kernel, one=True):
         super(ConvFFN, self).__init__()
-        # groups_num = M if one else D
+        
 
         self.pw_con1 = nn.Conv2d(
             in_channels= D,
@@ -103,7 +103,7 @@ class ConvFFN(nn.Module):
 class V_T_Conv_Block(nn.Module):
     def __init__(self, N, D, kernel_size,conv2d_kernel, conv2d_kernel2, r):
         super(V_T_Conv_Block, self).__init__()
-        #深度分离卷积负责捕获时域关系
+        
         self.dw_conv = nn.Conv1d(
             in_channels=N * D,
             out_channels=N * D,
@@ -145,7 +145,7 @@ class V_T_Conv_Block(nn.Module):
 class V_T_Conv(nn.Module):
     def __init__(self, conv2d_kernel,conv2d_kernel2, M, L, T, d_model, D=20, P=8, S=4, kernel_size=4, r=1, num_layers=2):
         super(V_T_Conv, self).__init__()
-        # 深度分离卷积负责捕获时域关系
+        
         self.num_layers = num_layers
         N = L // S
         self.embed_layer = Embedding(P, S, D)
@@ -967,4 +967,4 @@ class Model(nn.Module):
             out = self.revin_layer(out, 'denorm')
 
         return trend_mamba1,trend_mamba2,restored_trend_mamba3,res_mamba1,res_mamba2,restored_res_mamba3,p_ij_trend_mam1, p_ij_trend_mam3, p_ij_res_mam1,p_ij_res_mam3, out
-        # return output, mg,trend
+        
