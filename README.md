@@ -18,3 +18,4 @@ Our main contributions are as follows:
 ## 部分消融实验结果
 ![image](https://github.com/frfggv/MTSF/blob/master/pictures/消融.png)
 ## 模型效率与参数
+![image](https://github.com/frfggv/MTSF/blob/master/pictures/model_efficiency_memory_usage.png)
