@@ -14,7 +14,7 @@ Our main contributions are as follows:
 ![image](https://github.com/frfggv/MTSF/blob/master/pictures/MambaCCN2.png)
 
 ## 部分基线对比实验结果
-
+![image](https://github.com/frfggv/MTSF/blob/master/pictures/69d6afdd3fd2471e1aa216bea1f78be.png)
 ## 部分消融实验结果
-
+![image](https://github.com/frfggv/MTSF/blob/master/pictures/消融.png)
 ## 模型效率与参数
