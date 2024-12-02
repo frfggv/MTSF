@@ -10,5 +10,5 @@ Our main contributions are as follows:
 2. We introduce a Mamba-based Deep Representation Module (MDR-Module) in the network, relieving the distribution shift between the look-back and horizon.
 3. We introduce the Clustering Convolution Module (CC-Module) in the network, aggregating relevant variables to capture patterns of change between and within variables.
 
-#模型结构图
+# 模型结构图
 ![image](https://github.com/frfggv/MTSF/blob/master/pictures/MambaCCN2.png)
